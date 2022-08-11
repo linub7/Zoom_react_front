@@ -40,6 +40,8 @@ const JoinRoomContent = ({
       return;
     }
 
+    console.log(data);
+
     if (data?.roomExists) {
       if (data?.full) {
         setErrorMessage('Meeting is full.Please try again later.');

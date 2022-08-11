@@ -5,8 +5,14 @@ import RoomPage from 'pages/room';
 import { Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import './App.css';
+import { useEffect } from 'react';
+import { connectWithSocketIOServer } from 'webRTC/wss';
 
 function App() {
+  useEffect(() => {
+    connectWithSocketIOServer();
+  }, []);
+
   return (
     <div>
       <Toaster />
