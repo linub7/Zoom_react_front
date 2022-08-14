@@ -380,7 +380,8 @@ video {
   color: white;
   margin-top: 0;
   padding: 18px 38px;
-  background: linear-gradient(168.68deg, #0052c9 1.12%, #0a91db 100%);
+  /* background: linear-gradient(168.68deg, #0052c9 1.12%, #0a91db 100%); */
+  background: rgba(0, 82, 201, 0.6);
   border-radius: 0px 0px 15px 15px;
 }
 
